@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #1e1e1e;
+    font-family: "Quicksand";
+    color: rgb(255, 255, 255);
+}
+
+.header > h1{
+    margin: 20px;
+    text-align: center;
+    background-color: #ff3e5e;
+}
+
+.scoreBoard{
+    border: 2px dotted white;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin: 30px auto;
+    text-align: center;
+    font-size: 40px;
+    position: relative;
+}
+
+.badge{
+    background-color: #5b2390;
+    border: 1px solid #ffffff;
+    height: 70px;
+    font-size: 20px;
+    padding-top: 20px;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    text-align: center;
+    position: absolute;
+    top: 40px;
+}
+
+#userLabel{
+    left: -80px;
+}
+
+#computerLabel{
+    right: -80px;
+}
+
+.score{
+    display: inline-block;
+    position: relative;
+    top: 47px;
+}
+
+/* #colon{
+    position: relative;
+    top: 42px;
+} */
+
+#statement{
+    text-align: center;
+    font-size: 30px;
+}
+
+.choices{
+    text-align: center;
+    margin-top: 30px;
+}
+
+
+.choice{
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 10px 10px;
+    border-radius: 50%;
+    border: 1px solid #47ffc8;
+    background-color: #1e1e1e;
+}
+
+.choice:hover{
+    cursor: pointer;
+    background-color: #47ffc8;
+    transition: 0.5s;
+    transform: translateY(2px);
+}
+
+.button{
+    text-align: center;
+    margin-top: 30px;
+    padding: 20px 20px;
+}
+
+#resetButton{
+    color: rgb(255, 255, 255);
+    background-color: #1e1e1e;
+    border-radius: 10px;
+    border: 2px solid #ff3e5e;
+    text-align: center;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+}
+
+#resetButton:hover{
+    cursor: pointer;
+    background-color: #ff3e5e;
+    transition: 0.5s;
+    transform: translateY(1px);
+}

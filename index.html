@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="UTF-8"; lang="en-US">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="RPS.css">
+        <title> Rock Paper Scissor </title>
+    
+    <body>
+        <header class="header">
+            <h1>Rock Paper Scissor</h1>
+        </header>
+
+        <div class="scoreBoard">
+            <span id="userLabel" class="badge">User</span>
+            <span id="computerLabel" class="badge">Comp</span>
+            <span id="userScore" class="score">0</span>
+            <span id="colon" class="score">:</span>
+            <Span id="computerScore" class="score">0</Span>
+        </div>
+        
+        <div>
+            <p id="statement">Make your Move</p>
+        </div>
+
+        <div class="choices">
+            <div class="choice" id="rock">
+                <img src="Images/rock.png" alt="image not found">
+            </div>
+            <div class="choice" id="paper">
+                <img src="Images/paper.png" alt="image not found">
+            </div>
+            <div class="choice" id="scissor">
+                <img src="Images/scissor.png" alt="image not found">
+            </div>
+        </div>
+
+        <div class="button">
+            <button type="reset" id="resetButton">Reset</button>
+        </div>
+
+        <script src="RPS.js" charset="UTF-8"></script>
+
+    </body>
+
+    </head>
+</html>
